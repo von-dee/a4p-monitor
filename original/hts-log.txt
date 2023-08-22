@@ -1,0 +1,16 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 22 Aug 2023 09:04:52 at https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/html/horizontal/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*[name].https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/html/horizontal/index.html/*
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f0#f -F  -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/html/horizontal/index.html -O1 "C:\My Web Sites\a4p" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*[name].https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/html/horizontal/index.html/* )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:08:03	Error: 	"Not Found" (404) at link https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/assets/images/custom-select.png (from https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/css/style.min.css)
+09:08:03	Error: 	"Not Found" (404) at link https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/shaps/warning-shap.png (from https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/css/style.min.css)
+09:08:03	Error: 	"Not Found" (404) at link https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/shaps/danger-shap.png (from https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/css/style.min.css)
+09:08:03	Error: 	"Not Found" (404) at link https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/shaps/info-shap.png (from https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/css/style.min.css)
+09:08:03	Error: 	"Not Found" (404) at link https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/html/horizontal/details.html (from https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/html/horizontal/blog-posts.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 11 seconds : 522 links scanned, 516 files written (79039130 bytes overall) [58728020 bytes received at 307476 bytes/sec], 27652981 bytes transferred using HTTP compression in 420 files, ratio 24%, 40.1 requests per connection
+(5 errors, 0 warnings, 0 messages)
