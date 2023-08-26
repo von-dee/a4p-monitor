@@ -40,7 +40,7 @@
             <li class="nav-item d-none d-xl-block">
               <a href="index.html" class="text-nowrap nav-link">
                 <img src="./assets/imgs/logo.png" class="dark-logo" width="180" alt="" />
-                <img src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/logos/light-logo.svg" class="light-logo"  width="180" alt="" />
+                <img src="./assets/imgs/logo.png" class="light-logo"  width="180" alt="" />
               </a>
             </li>
             <li class="nav-item d-none d-xl-block">
@@ -141,7 +141,7 @@
           </ul>
           <div class="d-block d-xl-none">
             <a href="index.html" class="text-nowrap nav-link">
-              <img src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/logos/dark-logo.svg" width="180" alt="" />
+              <img src="./assets/imgs/logo.png" width="180" alt="" />
             </a>
           </div>
           <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -282,18 +282,27 @@
               <!-- ============================= -->
               <li class="nav-small-cap">
                 <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-                <span class="hide-menu">Home</span>
+                <span class="hide-menu">Dashboard</span>
               </li>
               <!-- =================== -->
               <!-- Dashboard -->
               <!-- =================== -->
               <li class="sidebar-item">
                 <!-- has-arrow -->
-                <a class="sidebar-link" href="index.html" aria-expanded="false" onclick="showDiv('dashboard')">
+                <a class="sidebar-link" href="#" aria-expanded="false" onclick="showDiv('dashboard')">
                   <span>
                     <i class="ti ti-home-2"></i>
                   </span>
                   <span class="hide-menu">Dashboard</span>
+                </a>
+              </li>
+              <li class="sidebar-item">
+                <!-- has-arrow -->
+                <a class="sidebar-link" href="#" aria-expanded="false" onclick="showDiv('regional')">
+                  <span class="rounded-3">
+                    <i class="ti ti-map"></i>
+                  </span>
+                  <span class="hide-menu">Regional</span>
                 </a>
               </li>
               <!-- ============================= -->
@@ -318,6 +327,12 @@
                     </a>
                   </li>
                   <li class="sidebar-item">
+                    <a href="#" class="sidebar-link" onclick="showDiv('monitoring-head-quaters')">
+                      <i class="ti ti-layout-kanban"></i>
+                      <span class="hide-menu">Head Quaters</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
                     <a href="#" class="sidebar-link" onclick="showDiv('monitoring-northern-belt')">
                       <i class="ti ti-layout-kanban"></i>
                       <span class="hide-menu">Northern Belt</span>
@@ -326,7 +341,7 @@
                   <li class="sidebar-item">
                     <a href="#" class="sidebar-link" onclick="showDiv('monitoring-western-belt')">
                       <i class="ti ti-message-dots"></i>
-                      <span class="hide-menu">Western Belt</span>
+                      <span class="hide-menu">Middle Belt</span>
                     </a>
                   </li>
                   <li class="sidebar-item">
@@ -503,6 +518,17 @@
           </div>
 
           <!--  Monitoring - All Regions -->
+          <div class="row" id="regional">
+            <iframe
+                src="https://monitor.alanforpresident.com/public/dashboard/ac34262d-9deb-4f1c-8dd1-3384989129b7"
+                frameborder="0"
+                width="800"
+                height="600"
+                allowtransparency
+            ></iframe>
+          </div>
+
+          <!--  Monitoring - All Regions -->
           <div class="row" id="monitoring-allregions">
             <iframe
                 src="https://monitor.alanforpresident.com/public/dashboard/58300f5c-c2bc-4d1e-a8d7-a5bbe696646c"
@@ -512,7 +538,18 @@
                 allowtransparency
             ></iframe>
           </div>
-           
+
+          <!--  Monitoring - Head Quaters -->
+          <div class="row" id="monitoring-head-quaters">
+            <iframe
+                src="https://monitor.alanforpresident.com/public/dashboard/6d7986f4-bf88-4ef7-b3bc-1438ff231291"
+                frameborder="0"
+                width="800"
+                height="600"
+                allowtransparency
+            ></iframe>
+          </div>
+
           <!--  Monitoring - All Regions -->
           <div class="row" id="monitoring-northern-belt">
             <iframe
@@ -1028,15 +1065,7 @@
     </div>
     <!-- Customizer -->
     
-    <script>
 
-      function showDiv(divId) {
-        $("#" + divId).show();
-        $("#" + divId).siblings().hide();
-      }
-
-      showDiv("dashboard");
-    </script>
 
     <!-- Import Js Files -->
     <script src="./dist/libs/jquery/dist/jquery.min.js"></script>
@@ -1053,6 +1082,17 @@
     <script src="./dist/libs/owl.carousel/dist/owl.carousel.min.js"></script>
     <script src="./dist/libs/apexcharts/dist/apexcharts.min.js"></script>
     <script src="./dist/js/dashboard.js"></script>
+
+    <script>
+
+      function showDiv(divId) {
+        console.log("haha **");
+        $("#" + divId).show();
+        $("#" + divId).siblings().hide();
+      }
+
+      showDiv("dashboard");
+    </script>
   </body>
 
 <!-- Mirrored from demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/html/horizontal/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 22 Aug 2023 09:05:39 GMT -->
