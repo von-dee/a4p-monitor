@@ -1086,12 +1086,24 @@
     <script>
 
       function showDiv(divId) {
-        console.log("haha **");
         $("#" + divId).show();
         $("#" + divId).siblings().hide();
       }
 
       showDiv("dashboard");
+
+
+      // // Auto Refresh
+      // var iFrames = document.querySelectorAll("iframe");
+
+      // function refreshIFrames() {
+      //   for (var i = 0; i < iFrames.length; i++) {
+      //     iFrames[i].src = iFrames[i].src;
+      //   }
+      // }
+
+      // setInterval(refreshIFrames, 120000);
+
     </script>
   </body>
 
